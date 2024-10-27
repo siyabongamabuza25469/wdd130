@@ -93,3 +93,67 @@ nav {
 .btn:hover {
   transform: scale(1.15);
 }
+
+.sociallinks {
+  padding-right: 250px;
+  float: right;
+
+}
+.top {
+  padding-right: 50px;
+  padding-top: 50px;
+  padding-left:25px ;
+  word-spacing: 20px;
+  display:inline ;
+}
+header{
+  display: flex;
+  background-color: aqua;
+}
+.top a:hover{
+  color: whitesmoke;
+}
+.contanier{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 10px;
+  background-color: aquamarine;
+}
+.column{
+  padding: 10px;
+}
+h9,h6,h7,h8{
+  color: black;
+  font-size: 25px;
+  font-weight: bold;
+  padding-top: 60px;
+}
+.content{
+  padding-top: 40px;
+  color: black;
+}
+
+.history{
+  font-style: italic;
+  color: darkgrey;
+  column-count: 3;
+}
+footer{
+  text-align: center;
+  padding-top: 300px;
+
+}
+button{
+  color: red;
+}
+.contact{
+  color: darkred;
+}
+figcaption{
+  font-size: medium;
+}
+form{
+  background-color: bisque;
+  font-weight: bold;
+  color: black;
+}
