@@ -8,8 +8,11 @@ h1,article{
 }
 .hero img {
   display: block;
-  width: 100%;
-  height: auto;
+  width: 100vw;
+  height: 100vw;
+  background-size: cover;
+  background-position: 50% 50%;
+  background-image: url("images/rafting59_600.jpg");
 }
 article img{
   position: absolute;
@@ -156,4 +159,17 @@ form{
   background-color: bisque;
   font-weight: bold;
   color: black;
+}
+
+table {
+  border-collapse: collapse;
+  border: 1px solid rgb(140 140 140);
+  font-family: sans-serif;
+  font-size: 0.8rem;
+  letter-spacing: 1px;
+  color: darkorange;
+}
+.th {
+  width: 100;
+  
 }
