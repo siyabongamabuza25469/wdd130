@@ -36,6 +36,7 @@ h1, h2 {
 nav, p, section, article {
     margin: 16px;
     padding: 8px;
+    position: top;
 }
 
 .socialmedia a {
@@ -63,7 +64,7 @@ nav, p, section, article {
     display: block;
     width: 100%;
     height: auto;
-    float: right;
+    float: center;
 }
 
 h1 {
@@ -71,7 +72,7 @@ h1 {
     top: 20px;
     width: 100%;
     padding: 16px;
-    text-align: center;
+    text-align: left;
     opacity: 0.7;
     background-color: var(--accent1-color);
     color: #fff; 
@@ -79,11 +80,11 @@ h1 {
 
 .overlay text {
     display: flex;
-    align-content: center;
+    align-content: left;
 }
 .hero img {
     float: right;
-    width: 125;
+    width: 125px;
 }
 
 
