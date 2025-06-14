@@ -3,7 +3,6 @@
     --secondary-color: #f4a261; /* warm sand */
     --accent1-color: #264653; /* dark slate blue */
     --accent2-color: #e9c46a; /* light golden yellow */
-    --heading-font: "Merriweather sans", sans-serif;
     --body-font: "Lato", sans-serif;
 }
 
@@ -36,7 +35,7 @@ h1, h2 {
 nav, p, section, article {
     margin: 16px;
     padding: 8px;
-    position: top;
+    
 }
 
 .socialmedia a {
@@ -64,7 +63,7 @@ nav, p, section, article {
     display: block;
     width: 100%;
     height: auto;
-    float: center;
+    float: right;
 }
 
 h1 {
@@ -80,7 +79,7 @@ h1 {
 
 .overlay text {
     display: flex;
-    align-content: left;
+    align-content: var(--heading-font);
 }
 .hero img {
     float: right;
