@@ -12,6 +12,12 @@ background-color: var(--primary-color);
 color: var(--accent2-color);
 }
 
+header {
+display: grid;
+grid-template-columns: 200px 1fr;
+align-items: center;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -31,6 +37,26 @@ header, main, footer {
 h1, h2 {
     font-family: var(--heading-font);
     color: var(--primary-color);
+}
+
+nav{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.4rem;
+    display: block;
+    padding: 1rem; 
+}
+
+article {
+    position: absolute;
+    top: 400px;
+    left: 11px;
+    background-color: white;
 }
 
 nav, p, section, article {
