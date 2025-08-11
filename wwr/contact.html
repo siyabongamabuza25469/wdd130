@@ -27,15 +27,33 @@
         <div id="connect">
           <form>
             <h4>Connect With Us</h4>
-            <p><label><input type="text" name="first name" value="Your username" size="15" id="Your username">
-            <p><label><input type="email" name="email" value="Your email" size="15" id="Your email">
-              <p><label><input type="radio" name="question1" value="general Inquiry" id="generalinquiry">
-              <p><label><input type="radio" name="question2" value="geservation Question" id="reservationquestion">
-              <p><label><input type="radio" name="question3" value="website suggestion" id="websitesuggestion">
-            <p><label><textarea name="Message">Write you message</textarea><label for="Write your message" id="Write your message">
-                </textarea>   
-            <p><label><input type="checkbox" name="Suscribe to newsletter" id="Suscribe to newsletter">
-            <button type="button" name="Inquiry" value="click to submit">Click To Submit
+            <p><label for="usernameInput">Username:</label> <input type="text" name="first name" value="Your username" size="15" id="usernameInput"></p>
+            <p><label for="emailInput">Email:</label> <input type="email" name="email" value="Your email" size="15" id="emailInput"></p>
+            <p>
+  <label for="generalinquiry">
+    <input type="radio" name="question1" value="general Inquiry" id="generalinquiry"> General Inquiry
+  </label>
+</p>
+<p>
+  <label for="reservationquestion">
+    <input type="radio" name="question2" value="reservation Question" id="reservationquestion"> Reservation Question
+  </label>
+</p>
+<p>
+  <label for="websitesuggestion">
+    <input type="radio" name="question3" value="website suggestion" id="websitesuggestion"> Website Suggestion
+  </label> 
+            <p>
+    <label for="message">Write your message</label><br>
+    <textarea name="message" id="message" rows="5" cols="40" placeholder="Enter your message here..."></textarea>
+</p>
+<p>
+    <input type="checkbox" name="newsletter_subscribe" id="newsletter_subscribe">
+    <label for="newsletter_subscribe">Subscribe to newsletter</label>
+</p>
+<p>
+    <button type="submit" name="inquiry_submit" value="click_to_submit">Click To Submit</button>
+</p>
            </form>    
         </div>
 
